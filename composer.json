@@ -3,7 +3,7 @@
     "description": "create file repository",
     "type": "library",
     "require": {
-        "illuminate/support": "^9.0@dev",
+        "illuminate/support": "^8.0",
         "php": "^7.4"
     },
     "require-dev": {
