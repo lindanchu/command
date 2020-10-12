@@ -20,7 +20,7 @@ tạo file reposiotory `php artisan make:repository {composer} {suffix?} {base_r
 | Parameter                 | Type      | Required  | Default   | Description |
 | :------------------------ | :-------- | :-------- | :-------- | :---- |
 | composer                  | string    | true      |           | Tên file repository
-| suffix                    | boolean   | false     | true      | Trạng thái tên file repository đã có tên hậu tố
+| suffix                    | boolean   | false     | true      | Trạng thái tên file repository đã có tên hậu tố Repository
 | base_repository           | boolean   | false     | false     | Trạng thái extends BaseRepository
 | construct                 | boolean   | false     | false     | Có hàm __construct
 | create_base_repository    | boolean   | false     | false     | Trạng thái tạo file BaseRepository
