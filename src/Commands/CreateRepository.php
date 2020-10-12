@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Console\Commands;
+namespace Linhdanchu\Artisan\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Filesystem\Filesystem;
