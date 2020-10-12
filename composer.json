@@ -1,6 +1,6 @@
 {
-    "name": "nguyenlinh/repository",
-    "description": "create file repository",
+    "name": "linhdanchu/command",
+    "description": "create file by command",
     "type": "library",
     "require": {
     },
