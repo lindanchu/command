@@ -15,7 +15,7 @@ composer require linhdanchu/command
 Linhdanchu\Artisan\Providers\RepositoryServicePovider::class
 ```
 
-tạo file reposiotory `php artisan make:repository {composer} {suffix?} {base_repository?} {construct?} {create_base_repository?`
+tạo file reposiotory `php artisan make:repository {composer} {suffix?} {base_repository?} {construct?} {create_base_repository?}`
 
 | Parameter                 | Type      | Required  | Default   | Description |
 | :------------------------ | :-------- | :-------- | :-------- | :---- |
