@@ -147,12 +147,12 @@ class CreateRepository extends Command
         }
         $pathFile = $this->namespaceBaseRepository . '/' . $this->nameBaseRepository . '.php';
         if($this->files->isFile($pathFile)){
-            $this->error('File đã tồn tại');
+            $this->error('File BaseRepository đã tồn tại');
         }else{
             if(!$this->files->put($pathFile, $this->contentBaseRepository())){
-                $this->error('Tạo file thất bại, Vui lòng thử lại');
+                $this->error('Tạo file BaseRepository thất bại, Vui lòng thử lại');
             }else{
-                $this->info('Tạo thành công base repository');
+                $this->info('Tạo thành công BaseRepository');
                 $return = true;
             }
         }
